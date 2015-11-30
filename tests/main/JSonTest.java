@@ -1,16 +1,10 @@
 package main;
 
-import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
-
-import org.json.simple.JSONArray;
-import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-
 import java.net.URL;
 import java.util.Optional;
-
 
 public class JSonTest {
 
@@ -39,9 +33,6 @@ public class JSonTest {
         }catch(Exception e){
             e.printStackTrace();
         }
-
-
-
     }
 
 
